@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x \"c:\\Users\\Administrator\\Documents\\ecomate\\setup.sh\")",
+      "Bash(chmod +x \"c:\\Users\\Administrator\\Documents\\ecomate\\.git\\hooks\\post-checkout\")",
+      "Bash(cmd /c \"c:\\Users\\Administrator\\Documents\\ecomate\\setup.bat\")",
+      "Bash(git submodule update --init --recursive)",
+      "Bash(git submodule status)",
+      "Bash(git submodule update --init --recursive --progress)",
+      "Bash(ssh -T git@github.com)",
+      "Read(//c/Users/Administrator/.ssh/**)",
+      "Bash(ssh-add -D)",
+      "Bash(git config --list)",
+      "Bash(git submodule sync)",
+      "Bash(git submodule update --init --recursive -v)",
+      "Bash(cat .gitmodules)",
+      "Bash(git add .gitmodules)",
+      "Bash(git add setup.bat setup.sh)",
+      "Bash(git commit -m \"Add submodules configuration and setup scripts\")",
+      "Bash(git clone git@github.com:maialino123/ecomate-fe.git test-clone)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
