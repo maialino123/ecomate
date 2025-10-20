@@ -4,3 +4,6 @@
 [submodule "ecomate-be"]
 	path = ecomate-be
 	url = git@github.com:maialino123/ecomate-be.git
+[submodule "ecomate-fe-v2"]
+	path = ecomate-fe-v2
+	url = git@github.com:maialino123/ecomate-fe-v2.git
