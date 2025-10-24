@@ -34,7 +34,14 @@ echo   Setup completed successfully!
 echo =====================================
 echo.
 echo Your submodules are ready:
-echo   - ecomate-fe (Frontend)
+echo   - ecomate-fe (Frontend Legacy)
+echo   - ecomate-fe-v2 (Frontend v2)
 echo   - ecomate-be (Backend)
+echo   - ecomate-translator (Cloudflare Worker AI)
+echo.
+echo Next steps:
+echo   1. Backend: cd ecomate-be ^&^& npm install
+echo   2. Frontend: cd ecomate-fe-v2 ^&^& pnpm install
+echo   3. Worker: cd ecomate-translator ^&^& npm install
 echo.
 pause
